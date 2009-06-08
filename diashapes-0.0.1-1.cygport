@@ -1,0 +1,14 @@
+inherit gnome2
+
+DESCRIPTION="Installs additional Dia Diagram Editor shapes"
+HOMEPAGE="http://dia-installer.de/shapes.html"
+SRC_URI="mirror://sourceforge/dia-installer/${P}.tar.bz2"
+
+DIFF_EXCLUDES="Makefile"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	make_desktop_entry diashapes "Dia Shapes Installer" dia "GNOME;Graphics"
+}
