@@ -1,4 +1,4 @@
 category: Graphics Gnome
-requires: cygwin libcurl4 libgcc1 libglib2.0_0 libgsf1_114 libgtk2.0_0 libxml2
+requires: libcurl4 libgcc1 libglib2.0_0 libgsf1_114 libgtk2.0_0 libxml2
 sdesc: "Installs additional shapes for Dia"
 ldesc: "A small tool to install additional shapes for the Dia diagram editor."
